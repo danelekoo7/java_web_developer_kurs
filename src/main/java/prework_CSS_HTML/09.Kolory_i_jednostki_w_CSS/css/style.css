@@ -1,0 +1,47 @@
+.type1 {
+	color: red;
+}
+
+.type2 {
+	color: orange;
+}
+
+#red {
+	color: red;
+}
+
+#blue {
+	color: blue;
+}
+
+#pink {
+	color: pink;
+} 
+
+.bColorRed {
+	background-color: rgba(255, 0, 0, .50);
+}
+
+.bColorPink {
+	background-color: #f259AC;
+}
+
+.bColorOrange {
+	background-color: hsl(42, 100%, 50%);
+}
+
+.container {
+	background-color: hsl(76, 100%, 50%);
+	width: 200px;
+}
+
+.first {
+	background-color: hsl(280, 100%, 50%);
+	width: 50%;
+}
+
+.second {
+	background-color: hsl(222, 100%, 50%);
+	width: 10em;
+}
+
