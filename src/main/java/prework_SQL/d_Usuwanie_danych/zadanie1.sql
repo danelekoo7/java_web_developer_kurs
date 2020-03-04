@@ -1,0 +1,1 @@
+DELETE FROM marks WHERE student_id BETWEEN 21 AND 25;
