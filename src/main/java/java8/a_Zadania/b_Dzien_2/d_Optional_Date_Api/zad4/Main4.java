@@ -1,0 +1,23 @@
+package java8.a_Zadania.b_Dzien_2.d_Optional_Date_Api.zad4;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
+
+public class Main4 {
+    public static void main(String[] args) {
+        List<Optional<String>> listOfOptionals = Arrays.asList(
+                Optional.empty(),
+                Optional.of("java"),
+                Optional.empty(),
+                Optional.of("python"),
+                Optional.of("php"),
+                Optional.empty(),
+                Optional.of(""));
+
+
+        listOfOptionals.stream()
+                .filter(Optional::isPresent)
+                .forEach(System.out::println);
+    }
+}
