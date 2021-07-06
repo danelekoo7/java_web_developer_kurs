@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<form action="servlet31" method="Post">
+    <label>
+        podaj kwote:
+        <input type="number" step="0.01" name="amount">
+    </label>
+    <br>
+    <label>
+        Wybierz typ przeliczania:
+        <br>
+        <input type="radio" name="calculateType" value="euroUsd"> EURO-USD
+        <br>
+        <input type="radio" name="calculateType" value="usdEuro"> USD-EURO
+        <br>
+        <input type="radio" name="calculateType" value="euroPln"> EURO-PLN
+        <br>
+        <input type="radio" name="calculateType" value="plnEuro"> PLN-EURO
+        <br>
+        <input type="radio" name="calculateType" value="usdPln"> USD-PLN
+        <br>
+        <input type="radio" name="calculateType" value="plnUsd"> PLN-USD
+    </label>
+    <br>
+    <input type="submit">
+</form>
+</body>
+</html>
